@@ -1,4 +1,4 @@
-package com.projects.sample.controller;
+package com.projects.bms.controller;
 
 import java.util.List;
 
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.projects.sample.model.Book;
-import com.projects.sample.service.BookService;
+import com.projects.bms.model.Book;
+import com.projects.bms.service.BookService;
 
 @RestController
 @RequestMapping("/api/books")

@@ -1,4 +1,4 @@
-package com.projects.sample.service;
+package com.projects.bms.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.projects.sample.model.Book;
-import com.projects.sample.repository.BookRepository;
+import com.projects.bms.model.Book;
+import com.projects.bms.repository.BookRepository;
 
 @Service
 public class BookService {

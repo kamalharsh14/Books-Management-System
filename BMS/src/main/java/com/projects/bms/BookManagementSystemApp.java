@@ -1,4 +1,4 @@
-package com.projects.sample;
+package com.projects.bms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
