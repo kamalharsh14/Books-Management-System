@@ -36,21 +36,21 @@
 
 ## Setup and Installation
 1. Clone the repository:
-- git clone https://github.com/kamalharsh14/Books-Management-System.git
+git clone https://github.com/kamalharsh14/Books-Management-System.git
 
 2. Navigate to the project directory:
-- cd book-management-system
+cd book-management-system
 
 3. Configure the database:
-- For MySQL: Update `src/main/resources/application.properties` with your MySQL credentials.
-- For H2 (development): No additional configuration needed.
+For MySQL: Update `src/main/resources/application.properties` with your MySQL credentials.
+For H2 (development): No additional configuration needed.
 
 4. Build the project:
-- mvn clean install
+mvn clean install
 
 5. Run the application:
-- mvn spring-boot:run
-- The application will start running at `http://localhost:8080`.
+mvn spring-boot:run
+The application will start running at `http://localhost:8080`.
 
 ## API Endpoints
 
@@ -75,7 +75,7 @@
 
 ##### <a id="bookupdatejson">Update Book -> /api/books/{id}</a>
 ```json
-json{
+{
   "title": "The Great Gatsby",
   "author": "F. Scott Fitzgerald",
   "isbn": "9780743273565"
